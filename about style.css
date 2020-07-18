@@ -1,0 +1,50 @@
+body {
+	margin:10;
+	padding: 0;
+	background-color: black;
+}
+
+.circle img{
+	border-radius: 50%;
+	border-bottom:5px solid blue;
+	border-left:5px solid blue;
+	margin-left: 50px;
+	margin-top: 50px;
+	float:left;
+	position: relative;
+	shape-outside: circle();
+	margin-right: 30px;
+	border-right: 1px solid blue;
+	border-top: 1px solid blue;
+	}
+
+
+.circle1 img{
+	border-radius: 50%;
+	border-bottom:5px solid blue;
+	border-left:5px solid blue;
+	margin-right: 50px;
+	margin-top: 100px;
+	float:right;
+	shape-outside: circle();
+	margin-left: 30px;
+	border-right: 1px solid blue;
+	border-top: 1px solid blue;
+	}
+
+
+h1 {
+	color:#fff;
+	font-size: 3em;
+	border-bottom: 3px solid blue;
+	overflow: hidden;
+	text-transform: capitalize;
+	font-family: 'Galada', cursive;
+
+}
+ p {
+ 	color:#fff;
+ 	font-size: 2em;
+ 	font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
+ }
